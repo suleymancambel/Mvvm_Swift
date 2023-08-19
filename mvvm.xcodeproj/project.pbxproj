@@ -98,10 +98,10 @@
 		ABBB86592A911DBC00B84550 /* mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				ABBB868A2A91215D00B84550 /* Views */,
 				ABBB86872A911ECB00B84550 /* ViewModels */,
 				ABBB86842A911E5200B84550 /* Models */,
 				ABBB865A2A911DBC00B84550 /* mvvmApp.swift */,
-				ABBB865C2A911DBC00B84550 /* ContentView.swift */,
 				ABBB865E2A911DBD00B84550 /* Assets.xcassets */,
 				ABBB86602A911DBD00B84550 /* Preview Content */,
 			);
@@ -147,6 +147,14 @@
 				ABBB86882A911EDE00B84550 /* ContentViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ABBB868A2A91215D00B84550 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABBB865C2A911DBC00B84550 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

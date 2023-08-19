@@ -14,6 +14,21 @@ extension ContentView {
         @Published var isOn: Bool = true
         @Published var counter = 0
         @Published var itemList = [Item]()
+        
+        func increment() {
+            counter += 1
+        }
+        
+        func addItem() {
+            let random = ["Msi", "Asus", "Dell", "Acer", "Apple"]
+            let item = random.randomElement()!
+            let newItem = Item(name: item, description: "Item: \(itemList.count + 1)")
+            
+            withAnimation {
+                
+                itemList.insert(newItem, at: 0)
+            }
+        }
     }
 }
 
